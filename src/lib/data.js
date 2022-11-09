@@ -157,7 +157,7 @@ const rawData = [
         title: "Temps libre",
         tags: ['Print'],
         thumbnail: redbubble,
-        gallery: ['redbubble-1.jpg', 'redbubble-2.png', 'redbubble-3.jpg', 'redbubble-4.png', 'redbubble-5.jpg']
+        gallery: ['redbubble-1.jpg', 'redbubble-2.png', 'redbubble-3.jpg', 'redbubble-4.png']
     },
     {
         id: "anthro",

@@ -12,7 +12,7 @@ const config = {
 				const extension = url.pathname.substring(url.pathname.lastIndexOf('.') + 1);
 				if (['jpg', 'jpeg', 'png'].includes(extension)) {
 					return new URLSearchParams({
-						width: '800;400;1600',
+						width: '800;400;1000',
 						format: 'avif;webp',
 						picture: true
 					});

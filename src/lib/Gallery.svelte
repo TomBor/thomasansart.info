@@ -41,8 +41,8 @@
 			{#each Object.entries(data[id].sources) as [format, images], i}
 				<source
 					srcset={images
-						.filter((d) => d.w !== 400)
-						.map((d) => `${d.src}  ${d.w === 800 ? '1x' : '2x'}`)
+						.filter((d) => d.w === 1000)
+						.map((d) => `${d.src}  ${d.w}w`)
 						.join(', ')}
 					type={'image/' + format}
 					alt="Aperçu visuel du projet"
