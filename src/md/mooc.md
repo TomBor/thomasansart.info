@@ -1,0 +1,1 @@
+Participation à la mise en place et à l’adaptation de cartes et graphiques pour la première version du cours [Espace Mondial à Sciences Po sous forme de MOOC](https://www.fun-mooc.fr/courses/SciencesPo/05001S02/Trimestre_1_2015/about) (*Massive Open Online Course*) sur la plateforme FUN-MOOC.

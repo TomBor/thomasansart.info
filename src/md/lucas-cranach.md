@@ -1,0 +1,1 @@
+Réalisation en 2011 d’une carte du contexte politique de l’Europe au temps du peintre Lucas Cranach pour le mini-catalogue de [l’exposition au Musée du Luxembourg](http://museeduluxembourg.fr/cranach-et-son-temps).

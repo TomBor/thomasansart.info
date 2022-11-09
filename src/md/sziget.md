@@ -1,0 +1,1 @@
+Création de quatre posters à quatre échelles (Monde, Europe, France et Hongrie) pour le musée national de l’histoire de l’immigration présent au « Quartier des musées » de l’édition 2017 du Sziget festival.

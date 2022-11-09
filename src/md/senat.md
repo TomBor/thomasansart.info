@@ -1,0 +1,1 @@
+Création de 40 cartes et graphiques pour le rapport d’information « L’Afrique est notre avenir » de MM. Jeanny LORGEOUX et Jean-Marie BOCKEL, fait au nom de la commission des affaires étrangères, de la défense et des forces armées du Sénat [n° 104 (2013-2014) – 29 octobre 2013] sur le site : http://www.senat.fr/notice-rapport/2013/r13-104-notice.html.

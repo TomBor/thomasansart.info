@@ -1,0 +1,1 @@
+De 2011 à 2017 participation à la revue bi-mensuelle [Questions internationales](http://www.ladocumentationfrancaise.fr/catalogue/3303331600009/index.shtml#book_presentation) éditée par la Documentation Française.
