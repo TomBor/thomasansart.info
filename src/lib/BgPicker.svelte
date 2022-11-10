@@ -25,7 +25,7 @@
 
 <div>
 	<button on:click={toggle}>
-		<img src={icon} alt="Icone d'un soleil levant ou couchant" />
+		<img src={icon} alt="Icone d'un soleil levant ou couchant" width="36" height="36" />
 	</button>
 </div>
 

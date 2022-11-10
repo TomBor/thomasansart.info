@@ -17,9 +17,11 @@
 				srcset={images.map((i) => `${i.src}  ${images.w === 400 ? '1x' : '2x'}`).join(', ')}
 				type={'image/' + format}
 				alt="Couverture du projet {title}"
+				width="400"
+				height="250"
 			/>
 		{/each}
-		<img src={thumbnail.fallback.src} alt="Couverture du projet {title}" />
+		<img src={thumbnail.fallback.src} alt="Couverture du projet {title}" width="400" height="250" />
 	</picture>
 </a>
 
@@ -49,7 +51,9 @@
 	}
 	/* Bonne pratique : https://css-tricks.com/barebones-css-for-fluid-images/ */
 	img {
-		max-width: 100%;
+		height: auto;
+		width: 100%;
+		/* max-width: 100%; */
 		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
 	}
 </style>

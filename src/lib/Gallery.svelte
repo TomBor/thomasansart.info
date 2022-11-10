@@ -15,11 +15,13 @@
 			{#each Object.entries(img.sources) as [format, images]}
 				<source
 					srcset={images
-						.filter((d) => d.w !== 1600)
+						.filter((d) => d.w !== 1000)
 						.map((d) => `${d.src}  ${d.w === 400 ? '1x' : '2x'}`)
 						.join(', ')}
 					type={'image/' + format}
 					alt="Aperçu visuel du projet {data.title}"
+					width="400"
+					height={Math.round((img.fallback.h * 400) / img.fallback.w)}
 				/>
 			{/each}
 			<img
@@ -29,6 +31,8 @@
 				on:keypress={() => (id = i)}
 				src={img.fallback.src}
 				alt="Aperçu visuel du projet"
+				width={img.fallback.w}
+				height={img.fallback.h}
 			/>
 		</picture>
 	{/each}
@@ -46,9 +50,17 @@
 						.join(', ')}
 					type={'image/' + format}
 					alt="Aperçu visuel du projet"
+					width={data[id].fallback.w}
+					height={data[id].fallback.h}
 				/>
 			{/each}
-			<img class="large" src={data[id].fallback.src} alt="Aperçu visuel du projet" />
+			<img
+				class="large"
+				src={data[id].fallback.src}
+				alt="Aperçu visuel du projet"
+				width={data[id].fallback.w}
+				height={data[id].fallback.h}
+			/>
 		</picture>
 	</div>
 {/if}
@@ -70,14 +82,9 @@
 	}
 	img {
 		display: block;
-		max-width: 100%;
+		height: auto;
+		width: 100%;
 		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
-	}
-	img[width] {
-		width: auto; /* Defer to max-width */
-	}
-	img[width][height] {
-		height: auto; /* Preserve aspect ratio */
 	}
 	img:hover {
 		cursor: zoom-in;

@@ -13,14 +13,17 @@
 	<link href="https://thomasansart.info/{data.id}" rel="canonical" />
 </svelte:head>
 
-<h2>{data.title}</h2>
+<h2 class="short">{data.title}</h2>
 <p class="tags">{data.tags}</p>
 
-<div>{@html html}</div>
+<div class="short">{@html html}</div>
 
 <Gallery data={data.gallery} />
 
 <style>
+	.short {
+		max-width: 700px;
+	}
 	.tags {
 		font-family: var(--mono);
 	}
