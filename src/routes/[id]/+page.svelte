@@ -14,7 +14,7 @@
 </svelte:head>
 
 <h2 class="short">{data.title}</h2>
-<p class="tags">{data.tags}</p>
+<p class="tags fontmono">{data.tags}</p>
 
 <div class="short">{@html html}</div>
 
@@ -23,9 +23,6 @@
 <style>
 	.short {
 		max-width: 700px;
-	}
-	.tags {
-		font-family: var(--mono);
 	}
 	h2 {
 		margin-bottom: 0;

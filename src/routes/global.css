@@ -4,8 +4,39 @@
         helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     --mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     font-family: var(--sans-serif);
-    font-size: 16px;
+    font-size: 10px;
     scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+p,
+ul {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+
+ul {
+    padding-inline-start: 3rem;
+    margin-block-start: -1rem;
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: #333;
+}
+
+.fontmono {
+    font-family: var(--mono);
 }
 
 body {

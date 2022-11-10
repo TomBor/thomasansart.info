@@ -18,7 +18,7 @@
 	<p>
 		Cartographie et datavisualisation
 		<br />
-		à l'Atelier de cartographie de Sciences Po
+		à l'Atelier de cartographie de&#8239;Sciences&#8239;Po
 	</p>
 </div>
 
@@ -32,7 +32,7 @@
 	p {
 		font-family: var(--mono);
 		text-align: center;
-		font-size: 1.2rem;
+		font-size: 1.9rem;
 		margin-top: 0.5rem;
 	}
 	.project-grid {

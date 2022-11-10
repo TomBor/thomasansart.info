@@ -36,14 +36,15 @@
 			type="range"
 			name="Heure"
 			id="time"
-			min={data.nadir.getTime()}
+			min={data.nadir.getTime() + 1000000}
 			max={data.nadir1.getTime()}
 			bind:value={jTime}
-			step="any"
 			list="tickmarks"
 		/>
 		<datalist id="tickmarks">
-			<option value={data.nadir.getTime()} />
+			<!-- + ~ 16 minutes pour éviter le bug quand on
+			met le slider au minimum -->
+			<option value={data.nadir.getTime() + 1000000} />
 			<option value={data.sunrise.getTime()} />
 			<option value={data.solarNoon.getTime()} />
 			<option value={data.sunset.getTime()} />
@@ -68,12 +69,12 @@
 	}
 	.picker p {
 		margin-top: 0;
+		margin-bottom: 1rem;
 		font-family: var(--mono);
 	}
 	button {
 		background: none;
 		border: none;
-		width: 3rem;
 	}
 	button:hover {
 		background-color: var(--bg-html);

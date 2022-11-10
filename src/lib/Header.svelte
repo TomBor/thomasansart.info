@@ -11,10 +11,10 @@
 <style>
 	h1 {
 		text-align: center;
-		font-size: 2rem;
 		margin-bottom: 0.5rem;
 	}
-	a {
+	a,
+	a:visited {
 		color: inherit;
 		text-decoration: none;
 	}

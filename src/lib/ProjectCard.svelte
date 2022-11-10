@@ -46,14 +46,13 @@
 		max-width: fit-content;
 	}
 	.tag {
-		font-size: 0.7rem;
+		font-size: 1.3rem;
 		font-family: var(--mono);
 	}
 	/* Bonne pratique : https://css-tricks.com/barebones-css-for-fluid-images/ */
 	img {
 		height: auto;
 		width: 100%;
-		/* max-width: 100%; */
 		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
 	}
 </style>

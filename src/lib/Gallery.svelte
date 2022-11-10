@@ -109,5 +109,6 @@
 	}
 	.imgFull img {
 		max-height: calc(100vh - 2rem);
+		object-fit: contain;
 	}
 </style>
