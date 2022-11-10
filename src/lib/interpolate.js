@@ -1,5 +1,5 @@
 import suncalc from 'suncalc'
-import { scale } from 'chroma-js'
+import chroma from 'chroma-js'
 
 /**
  * Transform a date + time into a color
@@ -36,7 +36,7 @@ export function colorFromDate(currentDate) {
     ]
 
     const jPercent = dateToPercent(mj.nadir, j, mj1.nadir)
-    const color = scale(colors).domain(domain)(jPercent)
+    const color = chroma.scale(colors).domain(domain)(jPercent)
 
     return {
         color,

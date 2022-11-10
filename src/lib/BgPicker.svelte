@@ -68,7 +68,7 @@
 	}
 	.picker p {
 		margin-top: 0;
-		font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+		font-family: var(--mono);
 	}
 	button {
 		background: none;
