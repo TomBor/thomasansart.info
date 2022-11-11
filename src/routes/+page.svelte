@@ -14,11 +14,18 @@
 	<link href="https://thomasansart.info" rel="canonical" />
 </svelte:head>
 
-<div class="about">
+<div class="about fontmono">
 	<p>
 		Cartographie et datavisualisation
 		<br />
-		à l'Atelier de cartographie de&#8239;Sciences&#8239;Po
+		<a class="hide-link" href="https://www.sciencespo.fr/cartographie"
+			>à l'Atelier de cartographie de&#8239;Sciences&#8239;Po</a
+		>
+	</p>
+	<p class="contact">
+		<a href="https://github.com/TomBor">GitHub</a>
+		<a href="https://twitter.com/ThomasAnsart">Twitter</a>
+		<a href="https://www.linkedin.com/in/thomas-ansart-82558b16b/">LinkedIn</a>
 	</p>
 </div>
 
@@ -30,10 +37,23 @@
 
 <style>
 	p {
-		font-family: var(--mono);
 		text-align: center;
 		font-size: 1.9rem;
 		margin-top: 0.5rem;
+	}
+	.hide-link,
+	.hide-link:visited {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.contact {
+		display: flex;
+		justify-content: center;
+		gap: 2rem;
+	}
+	.contact a {
+		font-size: 1.6rem;
 	}
 	.project-grid {
 		display: grid;
