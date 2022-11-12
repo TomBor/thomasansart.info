@@ -20,6 +20,8 @@ import drole from '$img/projects/drole-planete-5.jpg?w=800;400&h=500;250&fit=cov
 import br163 from '$img/projects/br163-4.jpg?w=800;400&h=500;250&fit=cover&format=avif;webp&picture'
 import urban from '$img/projects/atlas-urbains-couv.jpg?w=800;400&h=500;250&fit=cover&format=avif;webp&picture'
 import eolif from '$img/projects/eolif-1.jpg?w=800;400&h=500;250&fit=cover&format=avif;webp&picture'
+import graticule from '$img/projects/graticule-1.png?w=800;400&h=500;250&fit=cover&format=avif;webp&picture'
+import topohelper from '$img/projects/topohelper-1.png?w=800;400&h=500;250&fit=cover&format=avif;webp&picture'
 
 
 const rawData = [
@@ -198,6 +200,22 @@ const rawData = [
         tags: ['Web', 'dev'],
         thumbnail: eolif,
         gallery: ['eolif-1.jpg', 'eolif-2.jpg']
+    },
+    {
+        id: "graticule",
+        date: "2022-05-01",
+        title: "Graticule",
+        tags: ['Tool', 'Web', 'dev'],
+        thumbnail: graticule,
+        gallery: addFilename('graticule', 4, 'png')
+    },
+    {
+        id: "topohelper",
+        date: "2022-10-20",
+        title: "TopoJSON Helper",
+        tags: ['Tool', 'dev'],
+        thumbnail: topohelper,
+        gallery: addFilename('topohelper', 5, 'png')
     },
 ]
 
