@@ -5,5 +5,5 @@ L’interface et les fonctionnalités de l’application ont été pensées pour
 Conception : Thomas Ansart et Antoine Rio.   
 Développement : Thomas Ansart.
 
-+ Site de présentation : https://www.sciencespo.fr/cartographie/graticule/
-+ Code source (open source) : https://github.com/AtelierCartographie/graticule
++ [Site de présentation](https://www.sciencespo.fr/cartographie/graticule/)
++ [Code source sur github](https://github.com/AtelierCartographie/graticule)
