@@ -25,6 +25,7 @@
 	<p class="contact">
 		<a href="https://github.com/TomBor">GitHub</a>
 		<a href="https://twitter.com/ThomasAnsart">Twitter</a>
+		<a href="https://observablehq.com/@tombor">ObservableHQ</a>
 		<a href="https://www.linkedin.com/in/thomas-ansart-82558b16b/">LinkedIn</a>
 	</p>
 </div>
